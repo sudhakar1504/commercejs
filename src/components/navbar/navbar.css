@@ -1,0 +1,39 @@
+.navbar__container{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: rgb(211, 211, 211) 1px solid;
+}
+.logo__img{
+    height: 50px;
+    object-fit: contain;
+}
+.logo{
+    margin-left: 40px;
+}
+.shopping__cart{
+    margin-right: 10%;
+}
+.shopping__cart:active{
+ background-color: rgba(228, 117, 13, 0) !important;
+}
+.totalcost{
+    text-transform: capitalize;
+    margin-right: 10%;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(201, 65, 235);
+}
+.totalcost>span{
+    color: rgb(151, 150, 150);
+}
+/* media query */
+@media only screen and (max-width: 880px){
+
+}

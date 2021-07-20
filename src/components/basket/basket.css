@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+.basket__header{
+    margin: 4% 4% 0% 4%;
+    padding: 5%;
+    background-color: #ffffff;
+}
+.basket__header >h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3%;
+    font-family: 'Rubik', sans-serif;
+}
+.cart__container{
+    display: flex;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    margin-bottom: 1%;
+    align-items: center;
+    justify-content: start;
+}
+.cart__img{
+    width: 120px;
+    object-fit: contain;
+    flex: 1;
+}
+.cart__img > img{
+    width: 100%;
+    object-fit: contain;
+}
+.cart__info{
+  flex: 3;
+  margin-left: 4%;
+}
+.cart__info >h5{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: 'Padauk', sans-serif;
+}
+.cart__info > h4{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 1.4rem;
+}
+.cart__info > button{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 2.4% 8%;
+    margin-bottom: 2%;
+}
+.update__cart{
+    flex: 7;
+    display: flex;
+    text-align: center;
+}
+.update__cart > button{
+   color: black;
+   font-size: 1.1rem;
+   outline: none;
+   padding: 0.3rem 0.5rem;
+   background-color: rgba(250, 237, 51, 0);
+   cursor: pointer;
+   border: black 1px solid;
+
+}
+.update__cart > h5{
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid black;
+    padding: 1.2% 1%;
+    font-size: 1rem;
+}
+.empty__checkout{
+    display: flex;
+    justify-content: flex-end;
+}
+.empty__checkout > button{
+        padding: 0.2% 2%;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-left: 2%;
+        text-transform: capitalize;
+        outline: none;
+        border: none;
+        color: white;
+        border-radius: 5%;
+        cursor: pointer;
+        font-family: 'Padauk', sans-serif;
+}
+.emptybtn{
+    background-color: rgb(255, 134, 21);
+}
+.checkoutbtn{
+    background-color: rgb(33, 156, 54);
+}
+@media only screen and (max-width: 600px){
+    .basket__header{
+        margin: 10% 4% 0% 4%;
+        padding: 5%;
+        background-color: #ffffff;
+      
+
+    }
+    .basket__header >h1{
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+        color: rgb(45, 46, 46);
+        font-family: 'Rubik', sans-serif;
+    }
+    .cart__container{
+        display: flex;
+        border-bottom: rgb(43, 42, 42) 2px solid;
+        margin-bottom: 4%;
+        align-items: center;
+        justify-content: start;
+    }
+    .cart__img{
+        width: 100px;
+        object-fit: contain;
+        flex: 1;
+    }
+    .cart__img > img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .cart__info{
+        flex: 2;
+      margin-left: 4%;
+    }
+    .cart__info >h5{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Padauk', sans-serif;
+    }
+    .cart__info > h4{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        font-size: 0.9rem;
+        color: rgb(59, 59, 59);
+    }
+    .cart__info > button{
+        background-color: rgb(247, 59, 59);
+        color: white;
+        border: none;
+        outline: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 2.4% 8%;
+        margin-bottom: 2%;
+    }
+    .update__cart{
+        flex: 3;
+        display: flex;
+        text-align: center;
+    }
+    .update__cart > button{
+       color: black;
+       font-size: 1rem;
+       outline: none;
+       padding: 0.2rem 0.3rem;
+       background-color: rgba(250, 237, 51, 0);
+       cursor: pointer;
+       border: black 1px solid;
+    
+    }
+    .update__cart > h5{
+        margin-left: 2%;
+        margin-right: 2%;
+        border: 1px solid black;
+        padding: 1.2% 3%;
+        font-size: 0.9rem;
+    }
+    .empty__checkout{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .empty__checkout > button{
+            padding: 0.2% 2%;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            font-weight: 550;
+            margin-left: 2%;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            color: white;
+            border-radius: 5%;
+            cursor: pointer;
+            font-family: 'Padauk', sans-serif;
+    }
+}
+@media only screen and (max-width: 430px){
+    .basket__header{
+        margin: 20% 4% 0% 4%;
+        padding: 5%;
+        background-color: #ffffff;
+      
+
+    }
+    .basket__header >h1{
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+        color: rgb(45, 46, 46);
+        font-family: 'Rubik', sans-serif;
+    }
+    .cart__container{
+        display: flex;
+        border-bottom: rgb(43, 42, 42) 2px solid;
+        margin-bottom: 4%;
+        align-items: center;
+        justify-content: start;
+    }
+    .cart__img{
+        width: 100px;
+        object-fit: contain;
+        flex: 1;
+    }
+    .cart__img > img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .cart__info{
+        flex: 3;
+      margin-left: 4%;
+    }
+    .cart__info >h5{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Padauk', sans-serif;
+    }
+    .cart__info > h4{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        font-size: 0.9rem;
+        color: rgb(59, 59, 59);
+    }
+    .cart__info > button{
+        background-color: rgb(247, 59, 59);
+        color: white;
+        border: none;
+        outline: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 2% 7%;
+        font-size: 0.7rem;
+        margin-bottom: 2%;
+    }
+    .update__cart{
+        flex: 2;
+        display: flex;
+        text-align: center;
+    }
+    .update__cart > button{
+       color: black;
+       font-size: 1rem;
+       outline: none;
+       padding: 0.2rem 0.3rem;
+       background-color: rgba(250, 237, 51, 0);
+       cursor: pointer;
+       border: black 1px solid;
+    
+    }
+    .update__cart > h5{
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid black;
+        padding: 1.2% 5px;
+        font-size: 0.9rem;
+    }
+    .empty__checkout{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .empty__checkout > button{
+            padding: 0.2% 2%;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            font-weight: 550;
+            margin-left: 2%;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            color: white;
+            border-radius: 5%;
+            cursor: pointer;
+            font-family: 'Padauk', sans-serif;
+    }
+}
+@media only screen and (max-width: 330px){
+    .basket__header{
+        margin: 20% 4% 0% 4%;
+        padding: 5%;
+        background-color: #ffffff;
+      
+
+    }
+    .basket__header >h1{
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 3%;
+        color: rgb(45, 46, 46);
+        font-family: 'Rubik', sans-serif;
+    }
+    .cart__container{
+        display: flex;
+        border-bottom: rgb(43, 42, 42) 2px solid;
+        margin-bottom: 4%;
+        align-items: center;
+        justify-content: start;
+    }
+    .cart__img{
+        width: 120px;
+        object-fit: contain;
+        flex: 1;
+    }
+    .cart__img > img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .cart__info{
+        flex: 3;
+      margin-left: 4%;
+    }
+    .cart__info >h5{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 0.8rem;
+        font-family: 'Padauk', sans-serif;
+    }
+    .cart__info > h4{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        font-size: 0.9rem;
+        color: rgb(59, 59, 59);
+    }
+    .cart__info > button{
+        background-color: rgb(247, 59, 59);
+        color: white;
+        border: none;
+        outline: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 2% 7%;
+        font-size: 0.7rem;
+        margin-bottom: 8px;
+    }
+    .update__cart{
+        flex: 2;
+        display: flex;
+        text-align: center;
+    }
+    .update__cart > button{
+       color: black;
+       font-size: 1rem;
+       outline: none;
+       padding: 0.2rem 0.3rem;
+       background-color: rgba(250, 237, 51, 0);
+       cursor: pointer;
+       border: black 1px solid;
+    
+    }
+    .update__cart > h5{
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid black;
+        padding: 1.2% 5px;
+        font-size: 0.9rem;
+    }
+    .empty__checkout{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .empty__checkout > button{
+            padding: 0.2% 2%;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            font-weight: 550;
+            margin-left: 2%;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            color: white;
+            border-radius: 5%;
+            cursor: pointer;
+            font-family: 'Padauk', sans-serif;
+    }
+}                                                                                                                                                     

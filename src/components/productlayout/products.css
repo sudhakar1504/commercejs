@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Source+Serif+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+.product__contain{
+    background-color: rgb(243, 202, 139);
+   
+}
+.product__contain .head >h1{
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 3.5rem;
+    padding: 5%;
+    font-weight: 200;
+}
+.product__container{
+   display:grid;
+   grid-template-columns: 200px;
+   grid-template-rows: 300px ;
+   margin: 2%;
+   margin-left: 5%;
+   place-items: center;
+}
+@media only screen and (max-width: 800px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 3rem;
+        padding: 5%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 170px;
+       grid-template-rows: 300px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width: 685px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 2rem;
+        padding: 5%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 150px;
+       grid-template-rows: 270px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width: 607px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 2rem;
+        padding: 5%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 140px;
+       grid-template-rows: 250px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width: 556px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 2rem;
+        padding: 5%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 180px;
+       grid-template-rows: 250px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width:443px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 1.6rem;
+        padding: 9%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 160px;
+       grid-template-rows: 250px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width:397px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 1.6rem;
+        padding: 9%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 130px;
+       grid-template-rows: 250px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width:329px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 1.4rem;
+        padding: 9%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 120px;
+       grid-template-rows: 200px;
+       margin: 2%;
+       margin-left: 5%;
+       place-items: center;
+    }
+}
+@media only screen and (max-width:305px){
+    .product__contain .head >h1{
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 1.2rem;
+        padding: 9%;
+        font-weight: 200;
+    }
+    .product__container{
+       display:grid;
+       grid-template-columns: 100px;
+       grid-template-rows: 180px;
+       
+       place-items: center;
+    }
+}
