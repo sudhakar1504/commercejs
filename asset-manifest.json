@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/artsale/static/css/main.209106d9.chunk.css",
+    "main.js": "/artsale/static/js/main.2beb28b1.chunk.js",
+    "main.js.map": "/artsale/static/js/main.2beb28b1.chunk.js.map",
+    "runtime-main.js": "/artsale/static/js/runtime-main.1af87e13.js",
+    "runtime-main.js.map": "/artsale/static/js/runtime-main.1af87e13.js.map",
+    "static/js/2.79f96e73.chunk.js": "/artsale/static/js/2.79f96e73.chunk.js",
+    "static/js/2.79f96e73.chunk.js.map": "/artsale/static/js/2.79f96e73.chunk.js.map",
+    "static/js/3.9149f94b.chunk.js": "/artsale/static/js/3.9149f94b.chunk.js",
+    "static/js/3.9149f94b.chunk.js.map": "/artsale/static/js/3.9149f94b.chunk.js.map",
+    "index.html": "/artsale/index.html",
+    "static/css/main.209106d9.chunk.css.map": "/artsale/static/css/main.209106d9.chunk.css.map",
+    "static/js/2.79f96e73.chunk.js.LICENSE.txt": "/artsale/static/js/2.79f96e73.chunk.js.LICENSE.txt",
+    "static/media/bbb.cff8cfa1.png": "/artsale/static/media/bbb.cff8cfa1.png",
+    "static/media/log.c6aea216.png": "/artsale/static/media/log.c6aea216.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1af87e13.js",
+    "static/js/2.79f96e73.chunk.js",
+    "static/css/main.209106d9.chunk.css",
+    "static/js/main.2beb28b1.chunk.js"
+  ]
+}
